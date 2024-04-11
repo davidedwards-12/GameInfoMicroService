@@ -49,6 +49,8 @@ namespace Micro
 
         };
 
+        private static readonly string aboutUs = "About Us Text something something idk testing 1 2 3";
+
         private readonly ILogger<MicroController> _logger;
 
         public MicroController(ILogger<MicroController> logger)
@@ -56,10 +58,16 @@ namespace Micro
             _logger = logger;
         }
 
-        [HttpGet]
+        [HttpGet("games")]
         public IEnumerable<GameInfo> Get()
         {
             return TheInfo;
+        }
+
+        [HttpGet("aboutus")]
+        public string GetAboutUs()
+        {
+            return aboutUs;
         }
     }
 }
