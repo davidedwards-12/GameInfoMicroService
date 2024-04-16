@@ -24,7 +24,8 @@ namespace Micro
                 DateAdded = "01/01/1942",
                 Description = "Look at me im a SNEEEEK",
                 HowTo = "Just snek around",
-                //Thumbnail = "/images/snake.jpg" //640x360 resolution
+                HighScores = "92,78,105,42",
+                Initials = "ABC, XYZ, DEF, GHI"
             },
             new GameInfo { 
                 //Id = 2,
@@ -34,7 +35,8 @@ namespace Micro
                 DateAdded = "09/09/1541",
                 Description = "Block Block Block",
                 HowTo = "Put Blocks Down",
-                //Thumbnail = "/images/tetris.jpg"
+                HighScores = "120,99,88,75",
+                Initials = "JKL, MNO, PQR, STU"
             },
             new GameInfo { 
                 //Id = 3,
@@ -44,7 +46,8 @@ namespace Micro
                 DateAdded = "07/04/1742",
                 Description = "RUN FOREST RUN!",
                 HowTo = "Hit the back back",
-                //Thumbnail = "/images/pong.jpg"
+                HighScores = "80,95,110,67",
+                Initials = "VWX, YZA, BCD, EFG"
             },
 
         };
